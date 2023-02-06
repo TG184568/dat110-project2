@@ -1,4 +1,4 @@
-package org.openjfx;
+package no.hvl.dat110;
 
 public class SystemInfo {
 
