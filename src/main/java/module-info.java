@@ -1,4 +1,5 @@
-module org.openjfx {
+module no.hvl.dat110 {
     requires javafx.controls;
-    exports no.hvl.dat110;
+    requires com.google.gson;
+    exports no.hvl.dat110.chapp;
 }
