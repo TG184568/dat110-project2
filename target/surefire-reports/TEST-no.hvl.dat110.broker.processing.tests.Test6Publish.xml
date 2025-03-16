@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="no.hvl.dat110.broker.processing.tests.Test6Publish" time="12.113" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/tomasgustavsen/Documents/HVL/Spring 2025/DAT110/dat110-project2-mom-startcode-main/target/test-classes:/Users/tomasgustavsen/Documents/HVL/Spring 2025/DAT110/dat110-project2-mom-startcode-main/target/classes:/Users/tomasgustavsen/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/tomasgustavsen/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/tomasgustavsen/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/tomasgustavsen/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/tomasgustavsen/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/tomasgustavsen/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M8/maven-surefire-plugin-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0-M8/maven-surefire-common-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M8/surefire-api-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M8/surefire-logger-api-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M8/surefire-extensions-api-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M8/surefire-booter-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M8/surefire-extensions-spi-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar:/Users/tomasgustavsen/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar:/Users/tomasgustavsen/.m2/repository/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar:/Users/tomasgustavsen/.m2/repository/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar:/Users/tomasgustavsen/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar:/Users/tomasgustavsen/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/Users/tomasgustavsen/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/tomasgustavsen/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/tomasgustavsen/.m2/repository/com/google/guava/guava/10.0.1/guava-10.0.1.jar:/Users/tomasgustavsen/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/tomasgustavsen/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar:/Users/tomasgustavsen/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/tomasgustavsen/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar:/Users/tomasgustavsen/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar:/Users/tomasgustavsen/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar:/Users/tomasgustavsen/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar:/Users/tomasgustavsen/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/tomasgustavsen/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/tomasgustavsen/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/tomasgustavsen/.m2/repository/org/codehaus/plexus/plexus-java/1.1.2/plexus-java-1.1.2.jar:/Users/tomasgustavsen/.m2/repository/org/ow2/asm/asm/9.4/asm-9.4.jar:/Users/tomasgustavsen/.m2/repository/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M8/surefire-shared-utils-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.boot.library.path" value="/Users/tomasgustavsen/.sdkman/candidates/java/17.0.2.8.1-amzn/lib"/>
+    <property name="sun.java.command" value="/Users/tomasgustavsen/Documents/HVL/Spring 2025/DAT110/dat110-project2-mom-startcode-main/target/surefire/surefirebooter-20250316183248085_3.jar /Users/tomasgustavsen/Documents/HVL/Spring 2025/DAT110/dat110-project2-mom-startcode-main/target/surefire 2025-03-16T18-32-47_642-jvmRun1 surefire-20250316183248085_1tmp surefire_0-20250316183248085_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="Test6Publish"/>
+    <property name="surefire.test.class.path" value="/Users/tomasgustavsen/Documents/HVL/Spring 2025/DAT110/dat110-project2-mom-startcode-main/target/test-classes:/Users/tomasgustavsen/Documents/HVL/Spring 2025/DAT110/dat110-project2-mom-startcode-main/target/classes:/Users/tomasgustavsen/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/tomasgustavsen/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/tomasgustavsen/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/tomasgustavsen/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/tomasgustavsen/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/tomasgustavsen/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M8/maven-surefire-plugin-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0-M8/maven-surefire-common-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M8/surefire-api-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M8/surefire-logger-api-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M8/surefire-extensions-api-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M8/surefire-booter-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M8/surefire-extensions-spi-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/org/eclipse/aether/aether-spi/0.9.0.M2/aether-spi-0.9.0.M2.jar:/Users/tomasgustavsen/.m2/repository/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.jar:/Users/tomasgustavsen/.m2/repository/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar:/Users/tomasgustavsen/.m2/repository/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar:/Users/tomasgustavsen/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar:/Users/tomasgustavsen/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/Users/tomasgustavsen/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/tomasgustavsen/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/tomasgustavsen/.m2/repository/com/google/guava/guava/10.0.1/guava-10.0.1.jar:/Users/tomasgustavsen/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/tomasgustavsen/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar:/Users/tomasgustavsen/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/tomasgustavsen/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar:/Users/tomasgustavsen/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar:/Users/tomasgustavsen/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.jar:/Users/tomasgustavsen/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.jar:/Users/tomasgustavsen/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/tomasgustavsen/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/tomasgustavsen/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar:/Users/tomasgustavsen/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/tomasgustavsen/.m2/repository/org/codehaus/plexus/plexus-java/1.1.2/plexus-java-1.1.2.jar:/Users/tomasgustavsen/.m2/repository/org/ow2/asm/asm/9.4/asm-9.4.jar:/Users/tomasgustavsen/.m2/repository/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar:/Users/tomasgustavsen/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M8/surefire-shared-utils-3.0.0-M8.jar:/Users/tomasgustavsen/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/tomasgustavsen"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/Users/tomasgustavsen/.sdkman/candidates/java/17.0.2.8.1-amzn"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/tomasgustavsen/Documents/HVL/Spring 2025/DAT110/dat110-project2-mom-startcode-main"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/tomasgustavsen/Documents/HVL/Spring 2025/DAT110/dat110-project2-mom-startcode-main/target/surefire/surefirebooter-20250316183248085_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS"/>
+    <property name="user.name" value="tomasgustavsen"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.7.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-17.0.2.8.1"/>
+    <property name="localRepository" value="/Users/tomasgustavsen/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/2l/f2006ft975j55sg9kpj36r000000gn/T/"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="/Users/tomasgustavsen/Documents/HVL/Spring 2025/DAT110/dat110-project2-mom-startcode-main"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/tomasgustavsen/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="17.0.2+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="test" classname="no.hvl.dat110.broker.processing.tests.Test6Publish" time="12.075">
+    <system-out><![CDATA[Broker running
+Dispatcher running
+Dispatcher running
+.Broker accept [0]
+?
+Message [type=CONNECT, user=client]
+onConnect:Message [type=CONNECT, user=client]
+onConnect:Message [type=CONNECT, user=client]
+Broker stopping
+ClientHandler-client running
+?
+CreateTopicMsg [topic=testtopic]Message [type=CREATETOPIC, user=client]
+onCreateTopic:CreateTopicMsg [topic=testtopic]Message [type=CREATETOPIC, user=client]
+Topic : 1
+?
+SubscribeMsg [topic=testtopic]Message [type=SUBSCRIBE, user=client]
+onSubscribe:SubscribeMsg [topic=testtopic]Message [type=SUBSCRIBE, user=client]
+Subscribers : testtopic : 1
+?
+PublishMsg [topic=testtopic, message=message from client on topic]Message [type=PUBLISH, user=client]
+onPublish:PublishMsg [topic=testtopic, message=message from client on topic]Message [type=PUBLISH, user=client]
+?
+UnsubscribeMsg [topic=testtopic]Message [type=UNSUBSCRIBE, user=client]
+onUnsubscribe:UnsubscribeMsg [topic=testtopic]Message [type=UNSUBSCRIBE, user=client]
+Subscribers : testtopic : 0
+?
+Message [type=DISCONNECT, user=client]
+onDisconnect:Message [type=DISCONNECT, user=client]
+ClientHandler-client stopping
+Dispatcher stopping
+]]></system-out>
+  </testcase>
+</testsuite>
